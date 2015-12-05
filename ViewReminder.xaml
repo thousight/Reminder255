@@ -8,6 +8,16 @@
     mc:Ignorable="d">
 
     <Grid Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
-
+        <TextBlock x:Name="viewReminderTitle" HorizontalAlignment="Left" Margin="10,10,0,0" TextWrapping="Wrap" Text="Title" VerticalAlignment="Top" Height="71" Width="340" FontSize="40"/>
+        <TextBlock x:Name="viewReminderDesc" HorizontalAlignment="Left" Margin="41,150,0,0" TextWrapping="Wrap" Text="Description" VerticalAlignment="Top" FontSize="26.667" Height="75" Width="309"/>
+        <TextBlock x:Name="viewReminderTime" HorizontalAlignment="Left" Margin="93,270,0,0" TextWrapping="Wrap" Text="Time" VerticalAlignment="Top" FontSize="26.667"/>
+        <TextBlock x:Name="textBlock" HorizontalAlignment="Left" Margin="10,230,0,0" TextWrapping="Wrap" Text="Date: " VerticalAlignment="Top" FontSize="26.667"/>
+        <TextBlock x:Name="textBlock1" HorizontalAlignment="Left" Margin="10,110,0,0" TextWrapping="Wrap" Text="Description: " VerticalAlignment="Top" FontSize="26.667"/>
+        <TextBlock x:Name="textBlock2" HorizontalAlignment="Left" Margin="10,270,0,0" TextWrapping="Wrap" Text="Time: " VerticalAlignment="Top" FontSize="26.667"/>
+        <TextBlock x:Name="viewReminderDate" HorizontalAlignment="Left" Margin="93,230,0,0" TextWrapping="Wrap" Text="Date" VerticalAlignment="Top" FontSize="26.667"/>
+        <TextBlock x:Name="viewReminderLocation" HorizontalAlignment="Left" Margin="141,310,0,0" TextWrapping="Wrap" Text="Location" VerticalAlignment="Top" FontSize="26.667"/>
+        <TextBlock x:Name="textBlock3" HorizontalAlignment="Left" Margin="10,316,0,0" TextWrapping="Wrap" Text="Location: " VerticalAlignment="Top" FontSize="26.667"/>
+        <TextBlock x:Name="viewReminderWeather" HorizontalAlignment="Left" Margin="141,356,0,0" TextWrapping="Wrap" Text="Weather" VerticalAlignment="Top" FontSize="26.667"/>
+        <TextBlock x:Name="textBlock4" HorizontalAlignment="Left" Margin="10,356,0,0" TextWrapping="Wrap" Text="Weather: " VerticalAlignment="Top" FontSize="26.667"/>
     </Grid>
 </Page>
