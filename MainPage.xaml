@@ -7,7 +7,11 @@
     xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
     mc:Ignorable="d">
 
-    <Grid Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
+    <Grid Background="{ThemeResource ApplicationPageBackgroundThemeBrush}" Margin="-102,-53,-123,-188">
+        <TextBlock x:Name="textBlock" HorizontalAlignment="Left" TextWrapping="Wrap" Text="Reminders" VerticalAlignment="Top" Height="85" Width="306" FontSize="64"/>
+        <Button x:Name="button" Content="Change Theme" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="358,10,0,0" Height="75" Width="217" FontSize="29.333"/>
+        <ListBox x:Name="listBox" HorizontalAlignment="Left" Height="664" Margin="0,90,0,0" VerticalAlignment="Top" Width="565"/>
+        <Button x:Name="button1" Content="Add a Reminder" HorizontalAlignment="Right" VerticalAlignment="Stretch" Margin="0,808,10,10" RenderTransformOrigin="5.973,25.171" Width="271" FontSize="32" Click="button1_Click"/>
 
     </Grid>
 </Page>
